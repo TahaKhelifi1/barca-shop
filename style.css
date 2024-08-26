@@ -1,0 +1,33 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Styles */
+header .nav-link {
+    font-size: 1rem;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Product Section Styles */
+#products .card {
+    transition: transform 0.3s;
+}
+
+#products .card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer p {
+    margin: 0;
+}
+
+footer .social-icons a {
+    font-size: 1.5rem;
+}
